@@ -18,7 +18,7 @@ const postRoutes = require('./routes/post');
 dotenv.config();
 
 //Settings
-/* app.set('trust proxy', 1); */
+app.set('trust proxy', 1); 
 
 //Middleware
 app.use(
